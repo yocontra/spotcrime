@@ -1,0 +1,2 @@
+var spotcrime = require('../');
+

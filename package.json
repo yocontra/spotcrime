@@ -1,0 +1,28 @@
+{
+  "name": "spotcrime",
+  "description": "API client for crime statistics",
+  "version": "0.0.1",
+  "homepage": "http://github.com/wearefractal/spotcrime",
+  "repository": "git://github.com/wearefractal/spotcrime.git",
+  "author": "Fractal <contact@wearefractal.com> (http://wearefractal.com/)",
+  "main": "./index.js",
+  "dependencies": {
+    "request": "~2.29.0"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/wearefractal/spotcrime/raw/master/LICENSE"
+    }
+  ]
+}

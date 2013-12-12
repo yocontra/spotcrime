@@ -23,7 +23,7 @@
 ```javascript
 var spotcrime = require('spotcrime');
 
-// phoenix, az
+// somewhere near phoenix, az
 var loc = {
   lat: 33.39657,
   lon: -112.03422

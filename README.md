@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/wearefractal/spotcrime.png?branch=master)](https://travis-ci.org/wearefractal/spotcrime)
+[![Build Status](https://travis-ci.org/wearefractal/spotcrime.png?branch=master)](https://travis-ci.org/contra/spotcrime)
 
 [![NPM version](https://badge.fury.io/js/spotcrime.png)](http://badge.fury.io/js/spotcrime)
 
@@ -395,7 +395,7 @@ spotcrime.getCrimes(loc, radius, function(err, crimes){
 
 (MIT License)
 
-Copyright (c) 2013 Fractal <contact@wearefractal.com>
+Copyright (c) 2016 Fractal <contact@wearefractal.com>
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the

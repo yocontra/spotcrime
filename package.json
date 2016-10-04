@@ -1,13 +1,13 @@
 {
   "name": "spotcrime",
   "description": "API client for crime statistics",
-  "version": "0.0.4",
+  "version": "1.0.0",
   "homepage": "http://github.com/wearefractal/spotcrime",
   "repository": "git://github.com/wearefractal/spotcrime.git",
-  "author": "Fractal <contact@wearefractal.com> (http://wearefractal.com/)",
+  "author": "Contra <yo@contra.io> (http://contra.io/)",
   "main": "./index.js",
   "dependencies": {
-    "request": "~2.29.0"
+    "request": "^2.0.0"
   },
   "devDependencies": {
     "mocha": "*",

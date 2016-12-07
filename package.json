@@ -1,7 +1,7 @@
 {
   "name": "spotcrime",
   "description": "API client for crime statistics",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "http://github.com/wearefractal/spotcrime",
   "repository": "git://github.com/wearefractal/spotcrime.git",
   "author": "Contra <yo@contra.io> (http://contra.io/)",

@@ -12,24 +12,33 @@
 </tr>
 <tr>
 <td>Node Version</td>
-<td>>= 0.4</td>
+<td>>= 6</td>
 </tr>
 </table>
 
 ## Usage
 
 ```javascript
-var spotcrime = require('spotcrime');
+const spotcrime = require('spotcrime');
 
 // somewhere near phoenix, az
-var loc = {
+const loc = {
   lat: 33.39657,
   lon: -112.03422
 };
 
-var radius = 0.01; // this is miles
+const radius = 0.01; // this is miles
 
+// using callbacks
 spotcrime.getCrimes(loc, radius, function(err, crimes){
+
+});
+
+// using async await
+await spotcrime.getCrimes(loc, radius);
+
+// using promises
+spotcrime.getCrimes(loc, radius).then((crimes) => {
 
 });
 ```
@@ -393,7 +402,7 @@ spotcrime.getCrimes(loc, radius, function(err, crimes){
 
 (MIT License)
 
-Copyright (c) 2016 Contra <yo@contra.io>
+Copyright (c) 2018 Contra <yo@contra.io>
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the

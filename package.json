@@ -1,14 +1,11 @@
 {
   "name": "spotcrime",
   "description": "API client for crime statistics",
-  "version": "1.0.1",
-  "homepage": "http://github.com/wearefractal/spotcrime",
-  "repository": "git://github.com/wearefractal/spotcrime.git",
+  "version": "2.0.0",
+  "homepage": "http://github.com/contra/spotcrime",
+  "repository": "git://github.com/contra/spotcrime.git",
   "author": "Contra <yo@contra.io> (http://contra.io/)",
   "main": "./index.js",
-  "dependencies": {
-    "request": "^2.0.0"
-  },
   "devDependencies": {
     "mocha": "*",
     "should": "*"
@@ -17,12 +14,15 @@
     "test": "mocha"
   },
   "engines": {
-    "node": ">= 0.4.0"
+    "node": ">= 6"
   },
   "licenses": [
     {
       "type": "MIT",
       "url": "http://github.com/wearefractal/spotcrime/raw/master/LICENSE"
     }
-  ]
+  ],
+  "dependencies": {
+    "superagent": "^3.0.0"
+  }
 }

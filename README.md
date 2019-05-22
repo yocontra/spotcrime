@@ -16,6 +16,12 @@
 </tr>
 </table>
 
+## Breakage Notice
+
+SpotCrime doesn't really like people using their API, so this module is certainly not something you should build more than a prototype on top of. The keys change constantly and they purposefully try to break this module on a regular basis.
+
+If you need a consistent source of 911 call / police report / other municipal data, you should use https://municipal.systems/ instead.
+
 ## Usage
 
 ```javascript

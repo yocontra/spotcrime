@@ -20,6 +20,8 @@
 
 SpotCrime doesn't really like people using their API, so this module is certainly not something you should build more than a prototype on top of. The keys change constantly and they purposefully try to break this module on a regular basis.
 
+The current workaround for an api key is to use the SpotCrime map web interface and inspect the network traffic for a key. The request will be to https://spotcrime.com/crimes.json and you will need the spotcrime-api-token header. Replace the example key in lib\getCrimes.js with this token.
+
 If you need a consistent source of 911 call / police report / other municipal data, you should use https://municipal.systems/ instead.
 
 ## Usage
